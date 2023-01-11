@@ -3,10 +3,11 @@
 ### This is a repository of programs created for OS-B class assignments
 
 ### How to compile and run
-- TCP Scan
-gcc TCPPort-Scanner.c DieWithError.c -o TCPPort-Scanner
+- TCP Scan<br>
+gcc TCPPort-Scanner.c DieWithError.c -o TCPPort-Scanner<br>
 ./TCPPort-Scanner <servIP>
 
-- UDP Scan
-gcc UDPPort-Scanner.c DieWithError.c -o UDPPort-Scanner
+
+- UDP Scan<br>
+gcc UDPPort-Scanner.c DieWithError.c -o UDPPort-Scanner<br>
 ./UDPPort-Scanner.sh <servIP> <startPort> <endPort>
