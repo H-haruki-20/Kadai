@@ -9,6 +9,6 @@ gcc TCPPort-Scanner.c DieWithError.c -o TCPPort-Scanner<br>
 
 
 - UDP Scan<br>
-chmod +x UDPPort-Scanner.sh
+chmod +x UDPPort-Scanner.sh<br>
 gcc UDPPort-Scanner.c DieWithError.c -o UDPPort-Scanner<br>
 ./UDPPort-Scanner.sh \<servIP\> \<startPort\> \<endPort\>
