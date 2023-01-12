@@ -5,10 +5,10 @@
 ### How to compile and run
 - TCP Scan<br>
 gcc TCPPort-Scanner.c DieWithError.c -o TCPPort-Scanner<br>
-./TCPPort-Scanner /<servIP/>
+./TCPPort-Scanner \<servIP\>
 
 
 - UDP Scan<br>
 chmod +x UDPPort-Scanner.sh
 gcc UDPPort-Scanner.c DieWithError.c -o UDPPort-Scanner<br>
-./UDPPort-Scanner.sh /<servIP/> /<startPort/> /<endPort/>
+./UDPPort-Scanner.sh \<servIP\> \<startPort\> \<endPort\>
